@@ -3,10 +3,6 @@ languageCode = "en-gb"
 theme = "papaya"
 title = "Homepage"
 [[menu.main]]
-name = "custom link example"
-url = "#"
-weight = 5
-[[menu.main]]
 name = "Contact us"
 pre = "partners"
 url = "/contact-us/"
