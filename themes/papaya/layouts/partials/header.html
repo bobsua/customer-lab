@@ -1,0 +1,46 @@
+<header>
+    <div class="v-1110 ">
+        <div class="logo">
+            CustomerLab
+        </div>
+        <nav class="menu">
+            <ul>
+            	{{ range .Site.Menus.main }}
+            	<li><a class="nav-link" href="{{ .URL }}">
+            	{{ if .Pre }}
+            	{{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+            	{{ $icon }}
+            	{{ end }}
+            	{{ $text := print .Name | safeHTML }}
+            	{{ $text }}
+            	</a></li>
+            	{{ end }}
+            </ul>
+        </nav>
+
+        
+        <div class="button">
+            <a href="">Sign in</a>
+        </div>
+    </div>
+</header>
+
+<section id="your-customer">
+    <div class="image">
+        <img src="/images/vectors.svg" alt="">
+    </div>
+    <!-- <div class="info">
+       <div class="v-1110">
+           <div class="title">
+               <h1>Your Customer Acquisition Platform</h1>
+           </div>
+           <div class="text">
+               <p>CustomerLab is the best affiliate network to get new clients.CustomerLab is the best affiliate network to get new clients.</p>
+           </div>
+           <div class="buttons">
+               <a href="">Get Started</a>
+               <a href="">Book A Demo</a>
+           </div>
+       </div>
+    </div> -->
+</section>
