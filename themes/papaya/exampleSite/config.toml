@@ -1,0 +1,33 @@
+baseURL = "https://nifty-heyrovsky-13a1d4.netlify.com/"
+title = "Bershatsky.net"
+
+theme = "papaya"
+
+[menu]
+
+ [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    pre = "blog"
+    url = "/blog/"
+    weight = 2
+    
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pre = "info"
+    url = "/about/"
+    weight = 3
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  authorName = "Noah Bershatsky"
