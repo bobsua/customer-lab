@@ -1,6 +1,5 @@
 +++
-draft = true
-hp-subtitle = ""
+hp-subtitle = "dfgdfgdfgdfg"
 hp-title = "Your Customer Acquisition Platform"
 
 +++
