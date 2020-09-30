@@ -2,7 +2,7 @@
 label: Front page
 hide_body: true
 fields:
-- name: hp-title
+- name: Title
   type: text
   config:
     required: false
@@ -17,4 +17,4 @@ fields:
       format: markdown
   label: Subtitle
 pages:
-- content/homepage.md
+- content/CustomerLab.md
