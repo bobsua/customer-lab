@@ -1,5 +1,5 @@
 +++
-Title = "CustomerLab"
+Title = "Homepage"
 hp-subtitle = ""
 
 +++
