@@ -1,4 +1,9 @@
 ---
 label: Front page
 hide_body: true
-fields: []
+fields:
+- name: hp-title
+  type: text
+  config:
+    required: false
+  label: Title
